@@ -1,0 +1,8 @@
+{
+    "speech_to_text": "what's the weather today",
+    "infer_intent": {
+        "infer_intent": "get_weather",
+        "text": "what's the weather today"
+    },
+    "response_with_audio": "outputs/response.mp3"
+}
