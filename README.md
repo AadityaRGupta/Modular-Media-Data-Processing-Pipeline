@@ -45,24 +45,24 @@ The project represents the modular media and data processing pipeline implemente
 
 # Swapping Components:
 # Speech to text
-Uses: speech recognition with Google's API.
-Swap: can be swapped with openAI's AssemblyAI.
-Change: modify the speech_text.py in transcribe to implement the new logic.
+1. Uses: speech recognition with Google's API.
+2. Swap: can be swapped with openAI's AssemblyAI.
+3. Change: modify the speech_text.py in transcribe to implement the new logic.
 
 # Interpret Intent
-Uses: simple if/else statements for basic keywords detection.
-Swap: can be swapped with a high performance LLM.
-Change: modify the text_intent.py in interpret to implement the new logic.
+1. Uses: simple if/else statements for basic keywords detection.
+2. Swap: can be swapped with a high performance LLM.
+3. Change: modify the text_intent.py in interpret to implement the new logic.
 
 # Text to audio
-Uses: Google's text to speech (gTTS).
-Swap: can be swapped with advanced text detection LLMs.
-Change: modify the text_audio.py in synthesize to implement the new logic.
+1. Uses: Google's text to speech (gTTS).
+2. Swap: can be swapped with advanced text detection LLMs.
+3. Change: modify the text_audio.py in synthesize to implement the new logic.
 
 # OCR image extraction
-Uses: pytesseract.
-Swap: can be swapped with Google Vision API or Azure OCR.
-Change: modify the extract_fields.py in extract to implement the new logic.
+1. Uses: pytesseract.
+2. Swap: can be swapped with Google Vision API or Azure OCR.
+3. Change: modify the extract_fields.py in extract to implement the new logic.
 
 
 
